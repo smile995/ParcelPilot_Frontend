@@ -1,8 +1,13 @@
+import HowItWorks from "../../Components/HomeComponents/HowItWorks"
+import Slider from "../../Components/HomeComponents/Slider"
 
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div>
+     <Slider />
+     <HowItWorks />
+    </div>
   )
 }
 
