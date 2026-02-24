@@ -4,6 +4,7 @@ import OurServices from "../../Components/HomeComponents/OurServices";
 import SalesBrandingLogos from "../../Components/HomeComponents/SalesBrandingLogos";
 import SatisfactionPriority from "../../Components/HomeComponents/SatisfactionPriority";
 import Slider from "../../Components/HomeComponents/Slider";
+import TestimonialsSection from "../../Components/HomeComponents/TestimonialsSection";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <SalesBrandingLogos />
       <OurQualities />
       <SatisfactionPriority />
+      <TestimonialsSection />
     </div>
   );
 };
