@@ -22,8 +22,8 @@ const OurQualities = () => {
   ];
 
   return (
-    <section className=" py-4  md:px-10 ">
-      <div className=" space-y-6 border-y border-[#03373D] py-12 px-4 border-dashed">
+    <section className=" py-12 px-4 md:px-10 ">
+      <div className=" mx-auto space-y-6 border-y border-[#03373D] py-12 px-4 md:px-10 border-dashed">
 
         {qualities.map((q, i) => (
           <div
@@ -40,7 +40,7 @@ const OurQualities = () => {
             />
 
             {/* Divider */}
-            <div className="hidden md:block h-20 w-px bg-[#03373D]"></div>
+            <div className="hidden md:block h-20 w-px bg-gray-200"></div>
 
             {/* Content */}
             <div className="text-center md:text-left">
